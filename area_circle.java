@@ -11,5 +11,6 @@ public static void main(String[] args) {
     int area = 10*r*r;
     System.out.print("Area of Circle : ");
     System.out.print(area);
+    sc.close();
 }
 }

@@ -24,5 +24,6 @@ public class Pelindrome {
         else{
             System.out.println(orig+" not Pelindrome Number");
         }
+        sc.close();
     }
 }

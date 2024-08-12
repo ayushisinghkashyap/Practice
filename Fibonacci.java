@@ -16,6 +16,6 @@ public class Fibonacci {
             f2=f3;
 
         }
-
+        sc.close();
     }
 }

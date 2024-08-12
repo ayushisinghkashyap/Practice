@@ -16,6 +16,7 @@ public static void main(String[] args) {
 
     }
     System.out.print("is "+fact);
+    sc.close();
 }
     
 }
