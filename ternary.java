@@ -2,12 +2,8 @@ import java.util.Scanner;
 
 public class ternary {
     public static void checkEvenOdd(int n){
-        if(n%2==0){
-            System.out.println("Even");
-        }
-        else{
-            System.out.println("Odd");
-        }
+        String num = (n%2==0?"Even": "Odd");
+        System.out.println(num);
     }
     public static void main(String[] args) {
 
