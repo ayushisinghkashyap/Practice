@@ -10,6 +10,8 @@ public class revpattern1 {
                 System.out.print("*");
             }
             System.out.println();
+
+            sc.close();
         }
     }
 }

@@ -14,5 +14,7 @@ public class charpattern1 {
             System.out.println();
         }
 
+        sc.close();
+
     }
 }

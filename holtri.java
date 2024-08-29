@@ -1,21 +1,17 @@
 import java.util.Scanner;
 
 public class holtri {
-    public static void HollowTriangle(int n){
+    public static void HollowTriangle(int row, int col){
 
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=n;j++){
-                if(j<=n-i){
-                    System.out.print(" ");
-                }
-                else{
+        for(int i=1;i<=row;i++){
+            for(int j=1;j<=col;j++){
+                if(i==j || i==row || j==1){
                     System.out.print("*");
                 }
+                else{
+                    System.out.print(" ");
+                }
             }
-            for(int j=1;j<i;j++){
-                System.out.print("*");
-            }
-
             System.out.println();
         }
     }
@@ -24,8 +20,10 @@ public class holtri {
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        int m = sc.nextInt();
 
-        HollowTriangle(n);
+        HollowTriangle(n,m);
+
+        sc.close();
     }
-    
 }

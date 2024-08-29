@@ -16,5 +16,7 @@ public class numInverttri {
         int n = sc.nextInt();
 
         NumHalfInvertedTriangle(n);
+
+        sc.close();
     }
 }

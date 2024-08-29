@@ -25,5 +25,7 @@ public class holrect {
         int n = sc.nextInt();
         int m = sc.nextInt();
         HollowRectangle(n,m);
+
+        sc.close();
     }   
 }

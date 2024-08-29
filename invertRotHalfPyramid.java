@@ -18,5 +18,7 @@ public class invertRotHalfPyramid {
         int n = sc.nextInt();
 
         InvertRotatedHalfPyramid(n);
+
+        sc.close();
     }
 }
